@@ -3,9 +3,7 @@ package com.nttdata.ecommerce.model;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.management.ConstructorParameters;
 import javax.persistence.*;
-import java.util.Date;
 
 @Entity
 @Table
@@ -13,16 +11,16 @@ import java.util.Date;
 @Setter
 
 
-public class Usuario {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String nombre;
+    private String name;
     private String username;
     private String email;
-    private String direccion;
-    private String telefono;
-    private String tipo;
+    private String address;
+    private String phone;
+    private String type;
     private String password;
 
 

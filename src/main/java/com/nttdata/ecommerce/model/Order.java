@@ -10,10 +10,10 @@ import java.util.Date;
 @Table
 @Getter
 @Setter
-public class Orden {
+public class Order {
     private Integer id;
-    private String numero;
-    private Date fechaCreacion;
-    private Date fechaRecibida;
+    private String number;
+    private Date creationDate;
+    private Date dateReceived;
     private double total;
 }
